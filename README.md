@@ -12,3 +12,5 @@ https://AnnMarkham.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by Ann Markham
+
+### ©️2019 Run Buddy, Inc 

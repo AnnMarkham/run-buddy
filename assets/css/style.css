@@ -12,14 +12,32 @@ body {
 /* apply styles to <header> */
 header{
     padding: 20px 35px;
-    background-color: #39a6b2}
+    background-color: #39a6b2;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+header nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a{
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 1.22vw;
+}
 
     header h1 {
         font-weight: bold;
         font-size: 36px;
         color: #fce138;
         margin: 0;
-        display: inline;
+       
     }
     header a{    
         text-decoration: none;   
@@ -27,8 +45,7 @@ header{
     }
 
     header nav{ 
-        float: right;
-        margin: 7px 0;
+                margin: 7px 0;
     }
 
     header nav ul li{
@@ -38,30 +55,9 @@ header{
     header nav ul li a{
         margin: 0 30px;
         font-weight: lighter;
-        font-size: 22 px;
+        font-size: 1.55vw
     }
 
-footer {
-    background: #fce138;
-    width: 100%;
-    padding: 40px 35px;
-}
-
-footer h2 {
-    display: inline;
-    color: #024e76;
-    font-size: 30px;
-    margin: 0;
-}
-footer div{
-    float: right;
-    line-height: 1;
-    text-align: right;
-}
-
-footer a{
-    color: #024e76;
-}
 
 section{
     padding: 60px;
@@ -117,9 +113,6 @@ section{
 }
 /*HERO STYLES END*/
 
-
-
-
 .section-title{
     font-size: 55px;
     display: inline-block;
@@ -171,13 +164,14 @@ section{
 .trainers{
     text-align: center;
 }
-.trainer{  
-    width: 900px;
-    margin: 0 auto 30px auto;
-    background: #024e76;
-    color: #fce138;
-    overflow: auto;
-}
+.trainer {
+  width: 900px;
+  margin: 0 auto 30px auto;
+  background: #024e76;
+  color: #fce138;
+  overflow: auto;
+  }
+
 .trainer img{
     width: 35%;
     float: left;
@@ -193,7 +187,7 @@ section{
 .text-right{
     text-align: right;
 }
-.trainer bio h3{
+.trainer-bio h3{
     font-size: 32px;
     margin-bottom: 8px;
 }
@@ -232,7 +226,7 @@ section{
     color: #fce138;
     font-size: 32px
 }
-.contact-infop, contact-info address{
+.contact-info p, contact-info address{
     margin: 20px 0;
     line-height: 1.5;
     font-size: 20px;
@@ -245,6 +239,29 @@ section{
 /* REACH OUT STYLES END */
         
 
+footer {
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+footer h2 {
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+footer div{
+    line-height: 1;
+    text-align: right;
+}
+
+footer a{
+    color: #024e76;
+}
 
   
 

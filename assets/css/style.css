@@ -117,9 +117,6 @@ section{
 }
 /*HERO STYLES END*/
 
-
-
-
 .section-title{
     font-size: 55px;
     display: inline-block;
@@ -171,13 +168,14 @@ section{
 .trainers{
     text-align: center;
 }
-.trainer{  
-    width: 900px;
-    margin: 0 auto 30px auto;
-    background: #024e76;
-    color: #fce138;
-    overflow: auto;
-}
+.trainer {
+  width: 900px;
+  margin: 0 auto 30px auto;
+  background: #024e76;
+  color: #fce138;
+  overflow: auto;
+  }
+
 .trainer img{
     width: 35%;
     float: left;
@@ -193,7 +191,7 @@ section{
 .text-right{
     text-align: right;
 }
-.trainer bio h3{
+.trainer-bio h3{
     font-size: 32px;
     margin-bottom: 8px;
 }
@@ -232,7 +230,7 @@ section{
     color: #fce138;
     font-size: 32px
 }
-.contact-infop, contact-info address{
+.contact-info p, contact-info address{
     margin: 20px 0;
     line-height: 1.5;
     font-size: 20px;

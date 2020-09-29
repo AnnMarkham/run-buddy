@@ -148,13 +148,18 @@ section{
 }
 /*HERO STYLES END*/
 
+.flex-row{
+    display: flex;
+}
+
 .section-title{
     font-size: 55px;
-    display: inline-block;
-    padding: 0 100px 20px 100px;
-    margin-bottom: 35px;
     border-bottom: 3px solid;
     color: #024e76;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
 }
 
 .primary-border{
@@ -164,41 +169,55 @@ section{
     border-color: #39a6b2;
 }
 
-.intro {text-align: center;
-}
 .intro p{
     line-height: 1.7;
     color: #39a6b2;
     width: 80%;
     font-size: 20px;
     margin: 0 auto; /*added to center text for p width <100% - note does not work for height*/
+    text-align: auto;
 }
 .steps{
-    text-align: center;
-    background: #fce138;
+     background: #fce138;
 }
-.steps div{
-    margin-bottom: 80px;
+.step{
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    border-bottom: 1px solid #39a6b2;
+    display: flex;
+    flex-wrap: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-.steps img{
-    width: 15%;
-    margin: 10px 0;
-}
-.steps h3{
+.step h3{
     color: #024e76;
     font-size: 46px;
-    margin-top: 10px;
-}
-.steps p{
+    flex: 1 30%;
+  }
+
+.step-info{
+      flex: 2 70%
+  }
+  .step-img{
+      flex: 1 12%;
+      margin: right;
+  }
+
+  .step-img img{
+      max-width: 100;
+  }
+.step-text p{
     color: #39a6b2;
-    font-size: 23px;
+    font-size: 18px;
+    flex: 12;
 }
-.step span{
-    font-size: 38px;
+.step-text h4{
+    font-size: 26px;
+    line-height: 1.5;
+    color: #024e76;
 }
-.trainers{
-    text-align: center;
-}
+
 .trainer {
   width: 900px;
   margin: 0 auto 30px auto;
@@ -239,8 +258,7 @@ section{
 /* REACH OUT STYLES START */
 
 .contact{
-    text-align: center;
-    background: #024e76;
+        background: #024e76;
 }
 .contact h2{
     color: #fce138;
